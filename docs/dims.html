@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+<div class="container">
+  <div id="dims"></div>
+  <div>screen</div>
+</div>
 
+<style>
+.container {
+  display: flex;
+}
+div {
+  margin: 25px;
+}
+</style>
+
+<script defer>
+const w = window.screen.width;
+const h = window.screen.height;
+const dims = `${w}px x ${h}px`;
+document.querySelector('#dims').innerText = dims;
+</script>
+</body>
+</html>
