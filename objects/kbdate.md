@@ -43,7 +43,7 @@ This is the resulting kbdate:
 The year of this kbdate ID is 2025 (`25`); the month is April (`04`), and 9173 minutes have elapsed since the start of April.
 
 
-## Context and Implementations
+## Contexts and Implementations
 
   + Bash in a Debian Linux package: http://github.com/motetpaper/kbdate-sh
   + JavaScript object: https://github.com/motetpaper/kbdate-js
