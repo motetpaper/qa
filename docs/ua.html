@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+<div class="container">
+  <div id="data"></div>
+  <div>user agent</div>
+</div>
+
+<style>
+.container {
+  display: flex;
+}
+div {
+  margin: 25px;
+}
+</style>
+
+<script defer>
+document.querySelector('#data').innerText = navigator.userAgent;
+</script>
+</body>
+</html>
 
