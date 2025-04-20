@@ -10,12 +10,13 @@
 <script type="module">
 const outbox = document.querySelector('outbox');
 navigator.getBattery().then((b)=>{
-     outbox.value = b.charging;
-});  
+  outbox.value = b.charging;
+});
 </script>
 <style type="text/css">
 #outbox {
   font-size: 18pt;
+  width: 100pt
 }
 </style>
 </body>
