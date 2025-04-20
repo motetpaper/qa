@@ -6,11 +6,16 @@
     + [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon)
   + [open graph pototcol](https://ogp.me/)
   + [Link Preview in Messages](https://developer.apple.com/library/archive/technotes/tn2444/_index.html)
+  + RSS
+  + META tags
 
 ## For Developers
   + [https://editorconfig.org/](https://editorconfig.org/)
   + [GitHub Actions](https://github.com/features/actions)
   + [Jekyll](https://jekyllrb.com/)
+
+## Icons
+  + [https://primer.style/octicons/](https://primer.style/octicons/)
 
 ## Languages
   + [jq](https://jqlang.org/)
