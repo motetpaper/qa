@@ -2,24 +2,27 @@
 
 ## For Users
   + favicon
-    + https://www.favicon.cc/
-    + https://developer.mozilla.org/en-US/docs/Glossary/Favicon
-  + open graph pototcol: https://ogp.me/
-  + 
+    + [https://www.favicon.cc/](https://www.favicon.cc/)
+    + [favicon](https://developer.mozilla.org/en-US/docs/Glossary/Favicon)
+  + [open graph pototcol](https://ogp.me/)
+  + [Link Preview in Messages](https://developer.apple.com/library/archive/technotes/tn2444/_index.html)
 
 ## For Developers
-  + https://editorconfig.org/
-  + s
+  + [https://editorconfig.org/](https://editorconfig.org/)
 
 ## Languages
-  + https://jqlang.org/
-  + https://go.dev/
-  + https://dart.dev/
-  + https://www.rust-lang.org/
-  + https://www.php.net/manual/en/langref.php
-  + https://www.python.org/
+  + [jq](https://jqlang.org/)
+  + [go](https://go.dev/)
+  + [dart](https://dart.dev/)
+  + [rust](https://www.rust-lang.org/)
+  + [php](https://www.php.net/manual/en/langref.php)
+  + [python](https://www.python.org/)
+
+## Docs
+  + [mkdocs](https://www.mkdocs.org/)
+  + [pandoc](https://pandoc.org/)
 
 ## Print
-  + MOO: https://www.moo.com
-  + BLURB: https://www.blurb.com/
+  + MOO: [https://www.moo.com](https://www.moo.com)
+  + BLURB: [https://www.blurb.com/](https://www.blurb.com/)
   + 
