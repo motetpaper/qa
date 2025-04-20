@@ -6,7 +6,7 @@
   <title>battery-api-test</title>
 </head>
 <body>
-<input id="outbox" type="text" readonly />
+<input id="outbox" type="text" value="" readonly />
 <script type="module">
 const outputs = document.querySelector('#outbox');
 navigator.getBattery().then((battery) => {
