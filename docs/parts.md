@@ -9,6 +9,7 @@
 
 ## For Developers
   + [https://editorconfig.org/](https://editorconfig.org/)
+  + [GitHub Actions](https://github.com/features/actions)
 
 ## Languages
   + [jq](https://jqlang.org/)
