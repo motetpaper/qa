@@ -8,9 +8,13 @@
 <body>
 <input id="outbox" type="text" readonly />
 <script type="module">
-const outbox = document.querySelector('#outbox');
-navigator.getBattery().then((b)=>{
-  outbox.value = b.charging;
+const outputs = document.querySelector('#outbox');
+navigator.getBattery().then((battery) => {
+  battery.addEventListener('chargingchange', () => {
+    const msg = battery.charging ? 'plugged in' : 'unplugged'
+    console.log(msg);
+    outputs.value = msg
+  });    
 });
 </script>
 <style type="text/css">
