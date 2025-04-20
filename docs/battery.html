@@ -8,7 +8,7 @@
 <body>
 <input id="outbox" type="text" readonly />
 <script type="module">
-const outbox = document.querySelector('outbox');
+const outbox = document.querySelector('#outbox');
 navigator.getBattery().then((b)=>{
   outbox.value = b.charging;
 });
