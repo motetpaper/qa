@@ -10,6 +10,7 @@
 ## For Developers
   + [https://editorconfig.org/](https://editorconfig.org/)
   + [GitHub Actions](https://github.com/features/actions)
+  + [Jekyll](https://jekyllrb.com/)
 
 ## Languages
   + [jq](https://jqlang.org/)
