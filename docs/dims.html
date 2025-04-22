@@ -6,25 +6,80 @@
   <title></title>
 </head>
 <body>
+<h1>/dims</h1>
 <div class="container">
-  <div id="dims"></div>
-  <div>screen</div>
+  <div>
+    <div>
+      <label for="w">
+        screen :<br/>width x height
+      </label><br/>
+      <input name="w" id="w" type="text" />
+    </div>
+    <div>
+      <label for="aw">
+        screen :<br/>availWidth x availHeight
+      </label><br/>
+      <input id="aw" name="aw" type="text"/>
+    </div>
+    <div>
+      <label for="cw">
+        document.body :<br/>clientWidth x clientHeight
+      </label><br/>
+      <input id="cw" name="cw" type="text" />
+    </div>
+  </div>
 </div>
 
 <style>
+
+/** using em units here for projectors, etc **/
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
 .container {
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  margin-top: 0;
   display: flex;
+  flex-direction: row;
 }
+
 div {
-  margin: 25px;
+  margin:0;
+  margin-top: 0.5em;
 }
+
+label {
+  font-size: 1.25em;
+}
+
+input {
+  font-size: 1.5em;
+  padding: 1em;
+  margin-top: 0.5em;
+  font-weight: 900;
+  width: 8em;
+}
+
 </style>
 
-<script defer>
-const w = window.screen.width;
-const h = window.screen.height;
-const dims = `${w}px x ${h}px`;
-document.querySelector('#dims').innerText = dims;
+<script type="module">
+const s = window.screen;
+const b = document.body;
+
+window.onresize = foo;
+window.onload = foo;
+
+function foo() {
+  document.querySelector('#w').value = `${s.width}px x ${s.height}px`;
+  document.querySelector('#aw').value = `${s.availWidth}px x ${s.availHeight}px`;
+  document.querySelector('#cw').value = `${b.clientWidth}px x ${b.clientHeight}px`;
+}
+
 </script>
 </body>
 </html>
